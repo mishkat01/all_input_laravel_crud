@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::resource('inputs', InputController::class);
+Route::resource('input', InputController::class);
