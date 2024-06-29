@@ -19,7 +19,7 @@ class InputController extends Controller
      */
     public function create()
     {
-        //
+
         return view('inputs.create');
     }
 
@@ -31,9 +31,7 @@ class InputController extends Controller
         //
     }
 
-    /**
-     * Display the specified resource.
-     */
+
     public function show(string $id)
     {
         //
